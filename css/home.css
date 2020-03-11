@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     height: 100%;
+    font-family: 'gilroymedium';
 }
 .navbar {
   background-color: #171717;
@@ -33,10 +34,6 @@ html, body {
 .intro{
     margin-left: 1em;
     margin-right: 1em;
-}
-
-#hello {
-  font-family: "gilroy_bold";
 }
 
 
