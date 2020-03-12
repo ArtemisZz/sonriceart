@@ -82,12 +82,14 @@ body {
   border-radius: 20px;
   width: 8rem;
   background-color: #028af2;
+  margin-bottom: 2rem;
 }
 
 input[type="text"],
 input[type="email"] {
   border-radius: 20px;
 }
+
 
 #inputMessage {
   border-radius: 10px;
