@@ -1,8 +1,25 @@
-html, body {
-    margin: 0;
-    height: 100%;
-    font-family: 'gilroymedium';
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "gilroymedium";
+  
 }
+
+body{
+  background: url("../images/cafe final.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+
+.p-3{
+  padding: 0 !important;
+}
+
 .navbar {
   background-color: #171717;
 }
@@ -17,38 +34,37 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+  color: white;
 }
+
+/*
+ * Cover
+ */
+ .cover {
+  padding: 0 1.5rem;
+}
+
 .icon {
   width: 20px;
   height: 20px;
 }
 
-.inner {
-  background: url("../images/cafe final.jpg") center no-repeat;
-  background-size: cover;
-  height: 100%;
-  color: white;
+.intro {
+  margin-left: 1em;
+  margin-right: 1em;
 }
-
-.intro{
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 0.2%;
-}
-
 
 #ava2 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
   margin-bottom: 1em;
-  margin-top: 10%;
 }
 
 .btn {
-  margin-top: 1%;
   border-radius: 20px;
   width: 150px;
   background-color: #028af2;
+  margin: 2rem;
 }
+
