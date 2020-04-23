@@ -1,0 +1,10 @@
+$color:(
+    nav: #171717,
+    layer: #464646,
+
+);
+
+@function getColor($in){
+    @return map-get($map: $color, $key: $in)
+}
+
